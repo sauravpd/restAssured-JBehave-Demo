@@ -25,7 +25,7 @@ public class BookApiSteps extends Steps
 		request=given().queryParam("q",isbnNumber);
 	}
 
-	@When("a user retrieves the book by isbn number ")
+	@When("a user retrieves the book by isbn number")
 	public void a_user_retrieves_the_book_by_isbn_number() throws Throwable 
 	{
 		response=request.when().get(getBookByISBNNumberEndpoint);
