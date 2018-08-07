@@ -11,7 +11,11 @@ import org.junit.Assert;
 import io.restassured.response.Response;
 import io.restassured.response.ValidatableResponse;
 import io.restassured.specification.RequestSpecification;
-
+/**
+ * Book Api Steps class
+ * @author saurav
+ *
+ */
 public class BookApiSteps extends Steps
 {
 	private String getBookByISBNNumberEndpoint = "https://www.googleapis.com/books/v1/volumes";
